@@ -1,0 +1,110 @@
+body{
+    font-family: Arvo, serif;
+    background: url(images/books-1281581_1920.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.logo{
+    height: 50px;
+}
+
+.navbar-inverse{
+    background: rgba(0,0,0,0.5);
+}
+
+.nav li{
+    color: #fff;
+    font-size: 17px;
+    margin-left: 35px;
+    padding: 10px 0;
+}
+
+.nav li:hover{
+    border-bottom: 1px solid #00ffb8;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+#home{
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding-top: 15%;
+}
+
+#home h1{
+    margin-bottom: 30px;
+}
+
+#home h2{
+    margin-bottom: 50px;
+}
+
+#home .btn{
+    background-color: rgb(29,167,179);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+#home .btn:hover{
+    background-color: rgba(29,167,179,0.5);
+}
+
+.container{
+    max-width: 1000px;
+}
+
+#about{
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 10px;
+}
+
+#about h2{
+    font-weight: bold;
+}
+
+#about p{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.aboutImage{
+    height: 120px;
+}
+
+#promise{
+    padding-top: 100px;
+}
+
+#myCarousel{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.item h2{
+    color: #fff;
+    font-size: 25px;
+}
+.carousel-inner .item img{
+    height: 400px;
+    margin: 0 auto;
+}
+
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    height: 200px;
+}
+
+.footer{
+    background-color: rgba(29,167,179, 0.5);
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 150px;
+    font-size: 15px;
+}
