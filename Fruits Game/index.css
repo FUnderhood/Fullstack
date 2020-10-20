@@ -1,0 +1,103 @@
+body{
+    background-color: aliceblue;
+}
+
+#container{
+    position: relative;
+    margin: 100px auto;
+    padding: 30px;
+    width: 600px;
+    height: 600px;
+    background-color: aquamarine;
+    box-shadow: 4px 4px 4px 4px skyblue;
+}
+
+#lifebox{
+    position: relative;
+    width: 70px;
+    height: 20px;
+    background-color: aqua;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 4px 4px 4px 0px skyblue;
+    border-radius: 10px;
+    display: none;
+}
+
+#score{
+    position: relative;
+    left: 500px;
+    background-color: aqua;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 4px 4px 4px 4px skyblue;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#main{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    padding: 0px;
+    background-color: white;
+    margin: 10px auto;
+    top: 20px;
+    box-shadow: 4px 4px 4px 4px skyblue;
+    border-radius: 30px;
+}
+
+#text{
+    position: relative;
+    top: 30px;
+    background-color: aqua;
+    width: 600px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 4px 4px 4px 4px skyblue;
+    color: darkcyan;
+    font-size: 17px;
+}
+
+#start{
+    position: relative;
+    background-color: aqua;
+    top: 50px;
+    width: 600px;
+    height: 20px;
+    text-align: center;
+    color: darkcyan;
+    margin: auto;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 4px 4px 4px 4px skyblue;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#start:active{
+    background-color: skyblue;
+    box-shadow: 4px 4px 4px 4px aqua;
+    color: black;
+}
+
+#gameover{
+    background-color: orangered;
+    position: relative;
+    width: 600px;
+    height: 200px;
+    bottom: 400px;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 40px;
+    display: none;
+}
+
+.fruit{
+    position: absolute;
+    display: ;
+}
