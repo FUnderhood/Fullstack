@@ -1,0 +1,142 @@
+body{
+    background-color: skyblue;
+}
+
+#container{
+    background-color: pink;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    margin: 70px auto;
+    position: relative;
+    border-radius: 30px;
+}
+
+#timer{
+    background-color: lightyellow;
+    position: relative;
+    width: 130px;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px lightyellow;
+    display: none;
+}
+
+#score{
+    background-color: lightyellow;
+    position: absolute;
+    padding: 10px;
+    border-radius: 9px;
+    left: 540px;
+    box-shadow: 5px 5px 5px 0px lightyellow;
+    font-size: 20px;
+}
+
+#richtig{
+    background-color: lightgoldenrodyellow;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    left: 250px;
+    padding: 9px;
+    border-radius: 9px;
+    box-shadow: 5px 5px 5px 0px lightyellow;
+    font-size: 20px;
+    display: none;
+}
+
+#falsch{
+    background-color: orangered;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    left: 250px;
+    padding: 9px;
+    border-radius: 9px;
+    box-shadow: 5px 5px 5px 0px red;
+    font-size: 20px;
+    display: none;
+}
+
+#question{
+    background-color: skyblue;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 70px;
+    margin-top: 80px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px lightyellow;
+    text-align: center;
+    font-size: 100px;
+    line-height: 170px;
+}
+
+#choices{
+    width: 500px;
+    height: 120px;
+    margin: 320px auto 100px auto;
+    border-radius: 20px;
+    
+}
+
+.box{
+    background-color: skyblue;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 60px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px lightyellow;
+    text-align: center;
+    line-height: 70px;
+    font-size: 25px;
+    position: relative;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.box:active{
+    background-color: lightyellow;
+    box-shadow: 4px 4px 4px 4px skyblue;
+}
+
+#box4{
+    margin-right: 0px;
+}
+
+#start{
+    background-color: lightyellow;
+    width: 500px;
+    height: 40px;
+    position: relative;
+    border-radius: 30px;
+    margin: -100px auto;
+    padding: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    box-shadow: 4px 4px 4px 4px skyblue;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#start:active{
+    background-color: deepskyblue;
+    box-shadow: 4px 4px 4px 4px lightyellow;
+    color: white;
+}
+
+#gameover{
+    background-color: deeppink;
+    position: relative;
+    width: 500px;
+    padding: 80px 50px;
+    text-align: center;
+    bottom: 340px;
+    border-radius: 20px;
+    font-size: 40px;
+    display: none;
+}
